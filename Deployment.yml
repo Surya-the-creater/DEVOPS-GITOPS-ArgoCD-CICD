@@ -29,6 +29,7 @@ kind: Service
 apiVersion: v1
 metadata:
    name: kubeserve-svc
+   namespace: default
 spec:
   type: NodePort
   ports:
